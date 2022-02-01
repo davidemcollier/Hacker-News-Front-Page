@@ -1,0 +1,92 @@
+.card-columns{
+    
+    
+display: inline-block; 
+    
+    
+    @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+    }
+}
+
+
+.jumbotron {
+    background-color: rgba(0,0,0, 0.5)!important;;
+    
+ 
+    color: white;
+            color: white;
+            font-size: 50px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+}
+
+h1 {
+    font: verdana;
+    font-weight: bold;
+}
+
+body {
+  
+   background-image: url('https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/hacker_news-512.png'); 
+}
+
+
+.HNBrand + a{
+   font: verdana;
+    font-weight: bold; 
+    font-style:normal;
+}
+
+
+.blockquote-footer{
+    float: right;
+}
+
+.cardFont{
+    font-size: 200%;
+}
+
+
+.zoom {
+  transition: transform .2s; 
+}
+
+.zoom:hover {
+  transform: scale(1.05); 
+}
+
+.card {
+    background-color: black;
+    border-radius: 40px;
+}
+
+
+
+a {
+    color: white;
+    font: verdana; 
+    font-style: oblique;
+}
+
+
+
+
+a:hover {
+    text-decoration: none;        
+    color:#fa6600;
+}
+
+.expandButton:hover{
+   color:#fa6600; 
+}
+
+.expandButton{
+    background-color: #9a9a9a !important;
+    border-color: #9a9a9a;
+    outline: none !important;
+    box-shadow: none;
+}
